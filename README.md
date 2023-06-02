@@ -23,10 +23,11 @@ Redux Toolkit简答总结就是一个Redux工具包，用来简化Redux操作的
 4. 将 redux 连接到 React
 5. 将 React 中使用
 
-### 初始化之后 F12 REDUX
 
-F12
 
-在 store 中，我们可以看到
-
-stroe
+```
+addUser(state,action){
+  state.users.push(action.payload) 
+  //这个payload 大家可以可以在浏览器 redux 看到 
+}
+```
