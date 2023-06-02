@@ -1,7 +1,7 @@
 安装： npm add react react-dom react-redux @reduxjs/toolkit axios
 安装： npm install react-scripts
 - npm install
-- npm run start
+- npm run dev
 
 `
  "scripts": { 
